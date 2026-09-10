@@ -27,7 +27,7 @@ In-game dev tools for building restaurant location data for Qbox restaurant scri
 
 ## Requirements
 
-- Dependencies: `ox_lib`, `pl_lib`
+- Dependencies: [ox_lib](https://github.com/overextended/ox_lib), [pl_lib](https://github.com/pulsepk/pl_lib)
 - Access is gated by the ace permission `pl_restaurant.locationbuilder` — grant it to yourself/devs in `server.cfg`:
   ```
   add_ace group.admin pl_restaurant.locationbuilder allow
